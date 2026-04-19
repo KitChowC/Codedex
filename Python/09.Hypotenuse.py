@@ -1,5 +1,7 @@
 # Write code below 💖
 
-username = input("Enter your name: ")
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
 
-print(username)
+c = (a**2 + b**2) ** 0.5
+print(c)
